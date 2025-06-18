@@ -1,0 +1,10 @@
+spotipy
+streamlit
+pandas
+python-dotenv
+plotly
+langdetect
+scikit-learn
+requests
+seaborn
+pycountry
