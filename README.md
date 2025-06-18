@@ -2,6 +2,11 @@
 
 The Music Profile Analytics Dashboard is a Streamlit application that analyzes a user’s Spotify listening history and presents the results through interactive visualizations and simple machine-learning models. Building this project sharpened my skills across the **entire analytics workflow**—from data collection and cleaning to exploratory analysis, feature engineering, modeling, and communication.
 
+## Live Demo
+
+You can try out the project instantly here:  
+-> [music-profile-analytics.streamlit.app](https://music-profile-analytics.streamlit.app/)
+
 ## Why I Built This
 
 I wanted a concise yet technically rich project that:
@@ -36,7 +41,7 @@ These experiences mirror the data-science tasks I would handle at an internship:
 
 ## Limitations and Future Work
 
-Spotify now restricts audio feature endpoints (`danceability`, `valence`, etc.). I worked around this by focusing on available metadata and external APIs (e.g., Last.fm). Next steps:
+Spotify now restricts audio feature endpoints (`danceability`, `valence`, etc.). I worked around this by focusing on available metadata and external APIs (e.g., Last.fm).
 
 1. **Audio Embeddings** – Generate vector representations with open-source models to enrich clustering.  
 2. **Cross-Platform Support** – Add YouTube Music and SoundCloud to broaden analysis beyond Spotify.  
