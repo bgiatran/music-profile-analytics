@@ -10,8 +10,6 @@ Purpose: This dashboard is designed to help Spotify users visualize and explore
 """
 
 # 1. Imports and Environment Setup
-import os
-from dotenv import load_dotenv
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import streamlit as st
@@ -25,11 +23,10 @@ import requests
 import pycountry
 
 # ── Load API keys from .env file ────────────────────────────────────────────────
-load_dotenv()
-CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
-CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
-REDIRECT_URI = "http://127.0.0.1:8888/callback"
-LAST_CLIENT_ID = os.getenv("LAST_CLIENT_ID")
+CLIENT_ID = st.secrets["SPOTIFY_CLIENT_ID"]
+CLIENT_SECRET = st.secrets["SPOTIFY_CLIENT_SECRET"]
+REDIRECT_URI = "http://localhost:8888/callback"  # works locally and ignored by cloud
+LAST_CLIENT_ID = st.secrets["LAST_CLIENT_ID"]
 
 # ── 2. Spotify OAuth Setup ──────────────────────────────────────────────────────
 # Set the scope of permissions we want from the user.
