@@ -1,0 +1,13 @@
+# Project Secrets
+.env                # Environment variables (e.g., API keys, client secrets)
+
+# JetBrains IDE Files (e.g., PyCharm, IntelliJ)
+/shelf/             # IDE shelf backups
+/workspace.xml      # IDE-specific project settings
+
+# JetBrains HTTP Client
+/httpRequests/      # Temporary REST client requests
+
+# JetBrains Data Source Configs
+/dataSources/
+/dataSources.local.xml
