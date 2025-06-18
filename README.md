@@ -1,6 +1,6 @@
-# Listening Insight Dashboard
+# Music Profile Analytics
 
-The Listening Insight Dashboard is a Streamlit application that analyzes a user’s Spotify listening history and presents the results through interactive visualizations and simple machine-learning models. Building this project sharpened my skills across the **entire analytics workflow**—from data collection and cleaning to exploratory analysis, feature engineering, modeling, and communication.
+The Music Profile Analytics Dashboard is a Streamlit application that analyzes a user’s Spotify listening history and presents the results through interactive visualizations and simple machine-learning models. Building this project sharpened my skills across the **entire analytics workflow**—from data collection and cleaning to exploratory analysis, feature engineering, modeling, and communication.
 
 ## Why I Built This
 
