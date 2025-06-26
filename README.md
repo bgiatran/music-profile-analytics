@@ -4,6 +4,8 @@ The Spotify Listening Insight Dashboard is a web-based data analytics applicatio
 
 This project demonstrates the integration of APIs, data visualization, unsupervised machine learning, and user-centric product design within an interactive Streamlit application.
 
+[Live Demo - Launch the Spotify Listening Insight Dashboard](https://music-profile-analytics.streamlit.app/)
+
 ---
 
 ## Technology Stack
