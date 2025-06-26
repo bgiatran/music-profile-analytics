@@ -1,6 +1,5 @@
 # Spotify Listening Insight Dashboard
 
-## Project Overview
 The Spotify Listening Insight Dashboard is a web-based data analytics application that allows users to visualize their Spotify listening behavior. By integrating with the Spotify Web API and Last.fm, the dashboard provides personalized insights into music preferences including genres, explicit content trends, language exposure, release year distribution, and track clustering.
 
 This project demonstrates the integration of APIs, data visualization, unsupervised machine learning, and user-centric product design within an interactive Streamlit application.
@@ -75,10 +74,9 @@ streamlit run app.py
   </div>
 </div>
 
+---
+
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 32px;">
-  <div style="flex: 1;">
-    <img src="./images/Screenshot (87).png" alt="Track Stats Screenshot" style="max-width: 100%; border-radius: 8px;" />
-  </div>
   <div style="flex: 1;">
     <h3>Track Stats</h3>
     <p><strong>What it shows:</strong></p>
@@ -95,7 +93,12 @@ streamlit run app.py
       <li>Identifying “attention grabber” songs in your habits</li>
     </ul>
   </div>
+  <div style="flex: 1;">
+    <img src="./images/Screenshot (87).png" alt="Track Stats Screenshot" style="max-width: 100%; border-radius: 8px;" />
+  </div>
 </div>
+
+---
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 32px;">
   <div style="flex: 1;">
@@ -119,10 +122,9 @@ streamlit run app.py
   </div>
 </div>
 
+---
+
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 32px;">
-  <div style="flex: 1;">
-    <img src="./images/Screenshot (89).png" alt="Time & Trends Screenshot" style="max-width: 100%; border-radius: 8px;" />
-  </div>
   <div style="flex: 1;">
     <h3>Time & Trends</h3>
     <p><strong>What it shows:</strong></p>
@@ -139,7 +141,12 @@ streamlit run app.py
       <li>Emerging artists watching niche adoption patterns</li>
     </ul>
   </div>
+  <div style="flex: 1;">
+    <img src="./images/Screenshot (89).png" alt="Time & Trends Screenshot" style="max-width: 100%; border-radius: 8px;" />
+  </div>
 </div>
+
+---
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 32px;">
   <div style="flex: 1;">
@@ -164,10 +171,9 @@ streamlit run app.py
   </div>
 </div>
 
+---
+
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 32px;">
-  <div style="flex: 1;">
-    <img src="./images/Screenshot (91).png" alt="Advanced Analysis Screenshot" style="max-width: 100%; border-radius: 8px;" />
-  </div>
   <div style="flex: 1;">
     <h3>Advanced Analysis</h3>
     <p><strong>What it shows:</strong></p>
@@ -184,7 +190,12 @@ streamlit run app.py
       <li>Correlating length, popularity, and genre intent</li>
     </ul>
   </div>
+  <div style="flex: 1;">
+    <img src="./images/Screenshot (91).png" alt="Advanced Analysis Screenshot" style="max-width: 100%; border-radius: 8px;" />
+  </div>
 </div>
+
+---
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 32px;">
 
@@ -215,10 +226,9 @@ streamlit run app.py
 
 </div>
 
+---
+
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 32px;">
-  <div style="flex: 1;">
-    <img src="./images/Screenshot (93).png" alt="Hidden Gems Screenshoot" style="max-width: 100%; border-radius: 8px;" />
-  </div>
   <div style="flex: 1;">
     <h3>Hidden Gems Tab</h3>
 
@@ -239,7 +249,9 @@ streamlit run app.py
     <li>Fans re-discovering their own music taste beyond popularity</li>
   </ul>
   </div>
-
+<div style="flex: 1;">
+    <img src="./images/Screenshot (93).png" alt="Hidden Gems Screenshoot" style="max-width: 100%; border-radius: 8px;" />
+  </div>
 </div>
 
 ---
