@@ -268,26 +268,38 @@ This project serves as a full-stack data product that integrates:
 ---
 
 ## Challenges and Learnings
-One of the main challenges was the limited access to Spotify's full API feature set. Spotify now restricts audio feature endpoints (`danceability`, `valence`, etc.), which prevents deeper mood or energy-based analysis.
+One of the main challenges was the limited access to Spotify's full API feature set. Spotify now restricts audio feature endpoints (`danceability`, `valence`, etc.), which prevents deeper mood or energy-based analysis. his limitation prevented me from performing deeper mood or energy-based analyses in real time. Additionally, there were occasional gaps in artist metadata and inconsistent genre tagging, which required careful handling.
 
-To work around this, I focused on maximizing insights from accessible metadata like popularity, track duration, genre (from artist profiles), and language inference. I also integrated the Last.fm API to enrich artist country data.
+To work around these constraints, I maximized insights from available metadata including popularity, track duration, artist genres, and language inference. I also integrated the Last.fm API to enrich artist country data and improve geographic insights.
 
-**Key Learnings:**
+Through this process, I:
+
+- Gained a deeper understanding of OAuth2 authentication flows and API access scope limitations.
+- Improved skills in robust API data ingestion, including error handling and fallback strategies.
+- Developed hands-on experience applying clustering algorithms and creating interactive visualizations to tell compelling product stories.
+
+---
+
+## Key Learnings:
 - Deepened understanding of OAuth2 authentication flows and access scope limitations
 - Improved skills in API-based data ingestion, error handling, and fallbacks
 - Gained hands-on experience in clustering algorithms and interactive visualization for product-level storytelling
 
 ---
 
-## Future Work
-1. **Audio Embeddings** – Generate vector representations with open-source models to enrich clustering.  
-2. **Cross-Platform Support** – Add YouTube Music and SoundCloud to broaden analysis beyond Spotify.  
-3. **Recommendation Engine** – Leverage similarity metrics to suggest brand-new songs, not just analyze existing ones.  
-4. **Automated Reporting** – Export user-friendly PDF or HTML summaries for sharing.
-6. Add support for Spotify audio features (valence, energy, tempo) when access is granted
-7. Session tracking and user save history
-8. Custom playlist builder with filtering logic
-9. Responsive design improvements for mobile access
+## Future Improvements
+There's still a lot I want to improve in this dashboard to make it more insightful and user-centered. Some key areas for future work include:
+
+1. **Audio Embeddings** – Using open-source models to generate vector representations of tracks to enhance clustering and similarity analysis.
+2. **Cross-Platform Support** – Adding support for YouTube Music and SoundCloud to broaden the scope beyond Spotify.
+3. **Recommendation Engine** – Building a system to suggest new songs based on similarity metrics rather than just analyzing existing listening data.
+4. **Automated Reporting** – Enabling export of user-friendly PDF or HTML summaries for easy sharing.
+6. **Reintroduce Spotify audio features** - Incorporate valence, energy, tempo, and other audio features when API access is available again.
+7. **Session tracking and user save history** - Allow users to save progress and track their interactions with the dashboard.
+8. **Custom playlist builder** - Create a flexible playlist tool with filtering logic based on mood, genre, language, and more.
+9. **Responsive design** - Improve mobile access and overall responsiveness for a better user experience across devices.
+
+Despite the constraints, I aimed to build a tool that offers meaningful insights and prioritizes user needs. I’m excited to keep learning and iterating on this project, especially around advanced data cleaning, mood modeling, and playlist customization.
 
 ---
 
